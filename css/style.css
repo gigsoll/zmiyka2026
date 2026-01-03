@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    padding: 0px 160px;
+    font-family: 'Montserrat';
+}
+
+header {
+    padding: 5px 0;
+    background-color: #e3eb7d;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex_between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.listheader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+main {
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.wrapper {
+    padding: 0 50px;
+}
+
+.logo img  {
+    width: 120px;
+    height: 40px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.tovar_list {
+    padding: 10px 0px;
+    background-color: #dfe2b2;
+}
+
+.tovar {
+    padding: 20px 10px;
+}
+
+.tovar img {
+    max-width: 250px;
+}
+
+.tovar_info {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 57px;
+}
+
+.tovar p {
+    font-size: 17px;
+    color: rgb(100, 122, 1);
+}
