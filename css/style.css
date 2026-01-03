@@ -32,6 +32,7 @@
 }
 
 body {
+    position: relative;
     background-image: url(../img/background.jpg);
     padding: 0px 160px;
     font-family: 'Montserrat';
@@ -83,7 +84,7 @@ a {
 }
 
 .wrapper {
-    padding: 0 50px;
+    padding: 10px 50px;
 }
 
 .logo img  {
@@ -100,12 +101,23 @@ a {
     background-color: #dfe2b2;
 }
 
+.tovar_main {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .tovar {
+    width: 250px;
     padding: 20px 10px;
 }
 
 .tovar img {
     max-width: 250px;
+}
+
+.tovar img:hover{
+  content: url(../img/mikumainhover.png);
+   transition: all 5.3s ease;
 }
 
 .tovar_info {
@@ -115,7 +127,49 @@ a {
     gap: 57px;
 }
 
-.tovar p {
+.tovarlogo {
+    font-size: 20px;
+    color: black;
+}
+
+.tovar_info p {
     font-size: 17px;
     color: rgb(100, 122, 1);
+}
+
+.tovar_info .nope {
+    color: rgb(177, 32, 32);
+}
+.kartca {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.black {
+  position: fixed;
+  inset: 0;
+  opacity: 0.6;
+  background: #000;
+  z-index: 1;
+}
+
+.bc {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 950px;
+    height: 500px;
+    padding:  10px 30px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 2;
+}
+
+.bc img {
+    width: 420px;
 }
