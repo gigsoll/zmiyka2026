@@ -13,3 +13,33 @@ function createCardElement(parentName, data) {
     </div>
     </div>`
 }
+
+async function readData(dataPath) {
+    const url = dataPath
+    try {
+        const response =  await fetch(url)
+        if (!response.ok) {
+            throw new Error("There is no such file")
+        }
+        const result = await response.json();
+        return result
+
+    } catch (error) {
+        console.error(error.mesage)
+    } 
+}
+
+document.addEventListener('DOMContentLoaded', async function() {
+    // Name of class of the card wrapper container
+    const parentName = "tovar_main";
+    const dataLocation = "../data.json"
+
+    
+
+    data = await readData(dataLocation)
+
+    data.forEach(element => {
+        createCardElement(parentName, element)
+    });
+});
+
