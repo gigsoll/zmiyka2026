@@ -18,6 +18,15 @@ function createCardElement(parentName, data) {
     ${data.avalible ? "<p>у наявності</p>" : "<p class='nope'>нєма</p>"}
     </div>`
 
+    // Add image hover event listener
+    let image = card.querySelector("img")
+    image.addEventListener("mouseover", () => {
+        image.src = data.imageHoverSrc
+    })
+    image.addEventListener("mouseout", () => {
+        image.src = data.imageSrc
+    })
+
     // Add click action to create detailed view
     card.onclick = () => createDetails(data)
 
