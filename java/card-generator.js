@@ -6,7 +6,7 @@ function createCardElement(parentName, data) {
     // Create product card item for future manipulations
     card = document.createElement("div")
     card.classList.add("tovar")
-    card.id = data.idz
+    card.id = data.id
 
     // Fill the card with data
     card.innerHTML = `
