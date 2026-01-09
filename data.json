@@ -1,0 +1,57 @@
+[
+    {
+        "id": "luka",
+        "imageSrc": "img/lukakeychain.png",
+        "imageHoverSrc": "img/lukahover.png",
+        "productName": "Брелок \"Вокалоїд Лука\"",
+        "productPrice": 200,
+        "productDescription": "Да да за таке можнай й почку продати",
+        "avalible": true
+    },
+    {
+        "id": "miku",
+        "imageSrc": "img/mikykeychain.png",
+        "imageHoverSrc": "img/mikuhover.png",
+        "productName": "Брелок \"Хацуне Міку\"",
+        "productPrice": 200,
+        "productDescription": "Да да за таке можнай й почку продати",
+        "avalible": true
+    },
+    {
+        "id": "gumi",
+        "imageSrc": "img/gumikeychain.png",
+        "imageHoverSrc": "img/gumihover.png",
+        "productName": "Брелок \"Гумі\"",
+        "productPrice": 200,
+        "productDescription": "Да да за таке можнай й почку продати",
+        "avalible": true
+    },
+    {
+        "id": "len",
+        "imageSrc": "img/lenkeychain.png",
+        "imageHoverSrc": "img/lenhover.png",
+        "productName": "Брелок \"Кагаміне Лен\"",
+        "productPrice": 200,
+        "productDescription": "Да да за таке можнай й почку продати",
+        "avalible": true
+    },
+    {
+        "id": "meiko",
+        "imageSrc": "img/meikokeychain.png",
+        "imageHoverSrc": "img/meikohover.png",
+        "productName": "Брелок \"Меїко\"",
+        "productPrice": 200,
+        "productDescription": "Да да за таке можнай й почку продати",
+        "avalible": false
+    },
+    {
+        "id": "kaito",
+        "imageSrc": "img/kaitokeychain.png",
+        "imageHoverSrc": "img/kaitohover.png",
+        "productName": "Брелок \"Кагаміне Лен\"",
+        "productPrice": 200,
+        "productDescription": "Да да за таке можнай й почку продати",
+        "avalible": true
+    }
+    
+]

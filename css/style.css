@@ -115,36 +115,6 @@ a {
     max-width: 250px;
 }
 
-
-.luka img:hover {
-    content: url(../img/lukahover.png);
-    transition: all 5.3s ease;
-}
-
-.miku img:hover {
-    content: url(../img/mikuhover.png);
-    transition: all 5.3s ease;
-}
-
-.len img:hover {
-    content: url(../img/lenhover.png);
-    transition: all 5.3s ease;
-}
-
-.gumi img:hover {
-    content: url(../img/gumihover.png);
-    transition: all 5.3s ease;
-}
-
-.meiko img:hover {
-    content: url(../img/meikohover.png);
-    transition: all 5.3s ease;
-}
-
-.kaito img:hover {
-    content: url(../img/kaitohover.png);
-    transition: all 5.3s ease;
-}
 .tovar_info {
     display: flex;
     align-items: center;
