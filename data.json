@@ -48,18 +48,36 @@
         "id": "kaito",
         "imageSrc": "img/kaitokeychain.png",
         "imageHoverSrc": "img/kaitohover.png",
-        "productName": "Брелок \"Кагаміне Лен\"",
+        "productName": "Брелок \"Каїто\"",
         "productPrice": 200,
         "productDescription": "Да да за таке можнай й почку продати",
-        "avalible": false
+        "avalible": true
     },
      {
         "id": "monika",
-        "imageSrc": "img/lenkeychain.png",
-        "imageHoverSrc": "img/mikuhover.png",
-        "productName": "Брелок \"Монфка\"",
-        "productPrice": 200,
+        "imageSrc": "img/monikakeychain.png",
+        "imageHoverSrc": "img/monikahover.png",
+        "productName": "Брелок \"Моніка\"",
+        "productPrice": 75,
         "productDescription": "лише моніка",
+        "avalible": false
+    },
+     {
+        "id": "sayori",
+        "imageSrc": "img/sayorikeychain.png",
+        "imageHoverSrc": "img/sayorihover.png",
+        "productName": "Брелок \"сайорі\"",
+        "productPrice": 75,
+        "productDescription": "я повільно відчиняю двері",
+        "avalible": false
+    },
+     {
+        "id": "natsuki",
+        "imageSrc": "img/natsukikeychain.png",
+        "imageHoverSrc": "img/natsukihover.png",
+        "productName": "Брелок \"сайорі\"",
+        "productPrice": 75,
+        "productDescription": "Юрі поводить себе дивно останнім часом",
         "avalible": false
     }
     

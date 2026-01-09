@@ -10,6 +10,7 @@ function createCardElement(parentName, data) {
 
     // Fill the card with data
     card.innerHTML = `
+    <a href="#"></a>
     <img src=${data.imageSrc} alt="">
     <p class="tovarlogo">${data.productName}</p>
     <div class="tovar_info flex_between">
