@@ -40,7 +40,7 @@ body {
 
 header {
     padding: 5px 0;
-    background-color: #e3eb7d;
+    background-color: #B0BC42;
     box-sizing: border-box;
 }
 
@@ -69,8 +69,13 @@ header {
     gap: 15px;
 }
 
+.listheader a {
+    font-size: 16px;
+    color: #221505;
+}
+
 main {
-    background-color: #fff;
+    background-color: #f8ecd5;
 }
 
 ul {
@@ -84,12 +89,7 @@ a {
 }
 
 .wrapper {
-    padding: 10px 50px;
-}
-
-.logo img  {
-    width: 120px;
-    height: 40px;
+    padding: 0px 50px;
 }
 
 .banner img{
@@ -98,7 +98,12 @@ a {
 
 .tovar_list {
     padding: 10px 0px;
-    background-color: #dfe2b2;
+    background-color: #e0ce93;
+}
+
+.tovar_list a {
+    font-size: 20px;
+    color: #2b1802;
 }
 
 .tovar_main {
@@ -113,6 +118,7 @@ a {
 
 .tovar img {
     max-width: 250px;
+    padding-bottom: 6px;
 }
 
 .tovar_info {
@@ -129,7 +135,7 @@ a {
 
 .tovar_info p {
     font-size: 17px;
-    color: rgb(100, 122, 1);
+    color: #6C8B08;
 }
 
 .tovar_info .nope {
@@ -211,4 +217,15 @@ display: none;
     padding: 12px 36px;
     color: #fff;
     background-color: #3d3b50;
+}
+
+footer {
+    padding: 5px 0;
+    background-color: #D5A007;
+}
+
+.sos {
+    display: flex;
+   align-items: center;
+   gap: 10px;
 }

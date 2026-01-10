@@ -5,7 +5,7 @@
         "imageHoverSrc": "img/lukahover.png",
         "productName": "Брелок \"Вокалоїд Лука\"",
         "productPrice": 200,
-        "productDescription": "Да да за таке можнай й почку продати",
+        "productDescription": "Розмір: 5см, 7см",
         "avalible": true
     },
     {
@@ -14,7 +14,7 @@
         "imageHoverSrc": "img/mikuhover.png",
         "productName": "Брелок \"Хацуне Міку\"",
         "productPrice": 200,
-        "productDescription": "Да да за таке можнай й почку продати",
+        "productDescription": "Розмір: 6см, 7см",
         "avalible": true
     },
     {
@@ -23,7 +23,7 @@
         "imageHoverSrc": "img/gumihover.png",
         "productName": "Брелок \"Гумі\"",
         "productPrice": 200,
-        "productDescription": "Да да за таке можнай й почку продати",
+        "productDescription": "Розмір: 7см, 7см",
         "avalible": true
     },
     {
@@ -32,7 +32,7 @@
         "imageHoverSrc": "img/lenhover.png",
         "productName": "Брелок \"Кагаміне Лен\"",
         "productPrice": 200,
-        "productDescription": "Да да за таке можнай й почку продати",
+        "productDescription": "Розмір: 7см, 7см",
         "avalible": true
     },
     {
@@ -41,7 +41,7 @@
         "imageHoverSrc": "img/meikohover.png",
         "productName": "Брелок \"Меїко\"",
         "productPrice": 200,
-        "productDescription": "Да да за таке можнай й почку продати",
+        "productDescription": "Розмір: 5см, 7см",
         "avalible": false
     },
     {
@@ -50,7 +50,7 @@
         "imageHoverSrc": "img/kaitohover.png",
         "productName": "Брелок \"Каїто\"",
         "productPrice": 200,
-        "productDescription": "Да да за таке можнай й почку продати",
+        "productDescription": "Розмір: 5см, 7см",
         "avalible": true
     },
      {
@@ -79,6 +79,43 @@
         "productPrice": 75,
         "productDescription": "Юрі поводить себе дивно останнім часом",
         "avalible": false
+    },
+     {
+        "id": "yuri",
+        "imageSrc": "img/yurikeychain.png",
+        "imageHoverSrc": "img/yurihover.png",
+        "productName": "Брелок \"юрі\"",
+        "productPrice": 75,
+        "productDescription": "дайно подивитись на тебе",
+        "avalible": false
+    },
+     {
+        "id": "tetostiker",
+        "imageSrc": "img/tetostiker.png",
+        "imageHoverSrc": "img/tetostiker.png",
+        "productName": "Стікерпак \"тето\"",
+        "productPrice": 50,
+        "productDescription": "стікерпак",
+        "avalible": true
+    },
+     {
+        "id": "tetostiker",
+        "imageSrc": "img/random.png",
+        "imageHoverSrc": "img/randomhover.png",
+        "productName": "Рандомка \"брелок\"",
+        "productPrice": 190,
+        "productDescription": "КАЗІНО ПРОВІР СВОЮ ВДАЧУ 777",
+        "avalible": true
+    },
+     {
+        "id": "tetokulumok",
+        "imageSrc": "img/tetokulumok.png",
+        "imageHoverSrc": "img/tetokulumokhover.png",
+        "productName": "Килимок \"тето\"",
+        "productPrice": 420,
+        "productDescription": "тето килимок для миші",
+        "avalible": true
     }
+    
     
 ]
