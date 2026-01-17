@@ -280,6 +280,162 @@ html {
         padding: 0rem 0%;
     }
 
+    .cancelheader {
+        position: fixed;
+        top: 3%;
+        right: 3%;
+    }
+
+    .info {
+        font-size: 40rem;
+        padding-top: 20rem;
+    }
+
+    .listheader {
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        background-color: #B0BC42;
+        z-index: 2;
+    }
+          
+
+    .listheader ul{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 10%;
+        right: 0%;
+        padding: 10rem 5rem;
+        z-index: 3;
+                gap: 30rem;
+    }
+
+    .listheader li {
+        padding-top: 30rem;
+    }
+
+    .listheader a {
+        font-size: 50rem;
+    }
+
+    .soc {
+        display: flex;
+        flex-direction: column;
+        padding-top:20rem ;
+    }
+
+    .soss {
+        padding-bottom: 130%;
+    }
+
+     .tovar_info {
+                font-size: 30rem;
+                display: flex;
+                align-items: center;
+                padding-top: 10rem;
+                gap: 57rem;
+            }
+
+    .tovar {
+        /* width: 250rem; */
+        width: 70%;
+        padding: 30rem 10rem;
+    }
+
+    .tovar img {
+        /* max-width: 250rem; */
+        max-width: 100%;
+        padding-bottom: 6rem;
+    }
+
+.tovarlogo {
+        font-size: 60rem;
+        color: black;
+        padding-bottom: 20rem;
+    }
+    .tovar_info {
+        font-size: 27rem;
+        display: flex;
+        align-items: center;
+        padding-top: 10rem;
+        gap: 57rem;
+    }
+
+.tovar_info p {
+        font-size: 40rem;
+        color: #6C8B08;
+    }
+
+.flexus {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 65rem;
+    }
+
+.tovar_info h3 {
+    font-size: 50rem;
+}
+
+.tovar_list {
+    padding: 50rem 0rem;
+    background-color: #e0ce93;
+}
+.tovar_list a {
+    font-size: 60rem;
+    color: #2b1802;
+}
+
+.bc {
+   top: 50%;
+    display: flex;
+    width: 90%;
+    height: 70%;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    }
+
+
+.nazva {
+        font-size: 65rem;
+        font-weight: 400;
+        padding-bottom: 25rem;
+    }
+
+
+.bc img {
+    width: 100%;
+    height: 70%;
+}
+.nazva {
+        font-size: 45rem;
+        font-weight: 400;
+        padding-bottom: 25rem;
+    }
+
+.price {
+        font-size: 65rem;
+        font-weight: 500;
+        padding-bottom: 25rem;
+    }
+
+.kartca_info a {
+        width: 88%;
+        bottom: 30rem;
+        padding: 35rem;
+        text-align: center;
+        font-size: 35rem;
+    }
+
+.info {
+    font-size: 30rem;
+    padding-top: 10rem;
+}
           
 }
 
@@ -361,6 +517,7 @@ html {
     .tovarlogo {
         font-size: 30rem;
         color: black;
+        padding-bottom: 10rem;
     }
     .tovar_info {
         font-size: 27rem;
@@ -371,7 +528,7 @@ html {
     }
 
     .tovar_info p {
-        font-size: 25rem;
+        font-size: 35rem;
         color: #6C8B08;
     }
 
@@ -448,6 +605,10 @@ html {
       .tovar_list {
         padding: 10rem 0rem;
         background-color: #e0ce93;
+}
+
+.tovar_info h3 {
+    font-size: 20rem;
 }
 
 .tovar_list a {
@@ -598,14 +759,17 @@ html {
 }
 
 
-
-
-
 @media screen  and (min-width: 1024px){
     html {
         font-size: 1px;
     }
 
+body {
+    position: relative;
+    background-image: url(../img/background.jpg);
+    padding: 0rem 12%;
+    font-family: 'Montserrat';
+}
         .listheader {
             position: relative;
             right: 0;
