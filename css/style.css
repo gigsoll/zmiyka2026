@@ -396,7 +396,7 @@ html {
     top: 50%;
     display: flex;
     width: 100%;
-    height: 60%;
+    height: 70%;
     /* flex-wrap: wrap; */
     flex-direction: column;
 }
@@ -439,6 +439,95 @@ html {
     font-size: 30rem;
     padding-top: 10rem;
 }
+}
+
+@media screen  and (min-width: 640px){
+    html {
+        font-size: 1px;
+    }
+      .tovar_list {
+        padding: 10rem 0rem;
+        background-color: #e0ce93;
+}
+
+.tovar_list a {
+    font-size: 20rem;
+    color: #2b1802;
+}
+
+.tovar_list a:hover {
+    color: #4d771c;
+}
+
+.tovar_main {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tovar {
+    width: 250rem;
+    padding: 20rem 10rem;
+}
+
+.tovar img {
+    max-width: 250rem;
+    padding-bottom: 6rem;
+}
+
+.tovar_info {
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 57rem;
+}
+
+.tovarlogo {
+    font-size: 20rem;
+    color: black;
+}
+
+.tovar_info p {
+    font-size: 12rem;
+    color: #6C8B08;
+}
+
+.tovar_info .nope {
+    color: rgb(177, 32, 32);
+}
+
+.bc {
+        top: 50%;
+        display: flex;
+        width: 100%;
+        height: 90%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+
+.nazva {
+        font-size: 35rem;
+        font-weight: 400;
+        padding-bottom: 25rem;
+    }
+
+
+.price {
+        font-size: 35rem;
+        font-weight: 500;
+        padding-bottom: 25rem;
+    }
+
+
+.kartca_info a {
+        width: 38%;
+        bottom: 30rem;
+        padding: 25rem;
+        text-align: center;
+        font-size: 30rem;
+    }
+
 }
         
 @media screen  and (min-width: 768px){
@@ -496,63 +585,21 @@ html {
     color: rgb(177, 32, 32);
 }
 
-}
-
-@media screen  and (min-width: 640px){
-    html {
-        font-size: 1px;
-    }
-      .tovar_list {
-        padding: 10rem 0rem;
-        background-color: #e0ce93;
-}
-
-.tovar_list a {
-    font-size: 20rem;
-    color: #2b1802;
-}
-
-.tovar_list a:hover {
-    color: #4d771c;
-}
-
-.tovar_main {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.tovar {
-    width: 250rem;
-    padding: 20rem 10rem;
-}
-
-.tovar img {
-    max-width: 250rem;
-    padding-bottom: 6rem;
-}
-
-.tovar_info {
+.bc {
+    top: 50%;
     display: flex;
-    align-items: center;
-    padding-top: 10rem;
-    gap: 57rem;
-}
+    width: 80%;
+    height: 90%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
 
-.tovarlogo {
-    font-size: 20rem;
-    color: black;
-}
-
-.tovar_info p {
-    font-size: 12rem;
-    color: #6C8B08;
-}
-
-.tovar_info .nope {
-    color: rgb(177, 32, 32);
-}
 
 }
+
+
+
+
 
 @media screen  and (min-width: 1024px){
     html {
@@ -792,7 +839,7 @@ html {
         font-size: 1.1px;
     }
 
-    
+
 }
 
 @media screen  and (min-width: 1920px){
