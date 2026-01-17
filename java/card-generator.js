@@ -1,3 +1,9 @@
+
+
+
+
+
+
 function createCardElement(parentName, data) {
     // I assume you will have only one element with this class name
     // better aproach is to use id
@@ -7,6 +13,7 @@ function createCardElement(parentName, data) {
     card = document.createElement("div")
     card.classList.add("tovar")
     card.id = data.id
+  
 
     // Fill the card with data
     card.innerHTML = `
@@ -135,3 +142,19 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
 });
 
+  const dark = document.querySelector(".dark"),
+      burger = document.querySelector(".burger"),
+      listheader = document.querySelector(".listheader"),
+      cancelheader = document.querySelector(".cancelheader")
+
+    burger.addEventListener("click", function() {
+    listheader.style.display = "block";
+    dark.style.display = "block"
+    })
+
+    function cancelBurger() {
+    listheader.style.display = "none";
+    dark.style.display = "none"
+    }
+    cancelheader.addEventListener("click", cancelBurger) 
+    dark.addEventListener("click", cancelBurger)

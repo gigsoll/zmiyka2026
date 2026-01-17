@@ -31,15 +31,19 @@
     padding: 0;
 }
 
+html{
+    font-size: 1px;
+}
+
 body {
     position: relative;
     background-image: url(../img/background.jpg);
-    padding: 0px 160px;
+    padding: 0rem 12%;
     font-family: 'Montserrat';
 }
 
 header {
-    padding: 5px 0;
+    padding: 5rem 0;
     background-color: #B0BC42;
     box-sizing: border-box;
 }
@@ -53,27 +57,32 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .flexus {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 25rem;
 }
 
 .listheader {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 15px;
+    gap: 15rem;
 }
 
 .listheader a {
-    font-size: 16px;
+    padding: 10rem;
+    font-size: 16rem;
     color: #221505;
 }
 
+.listheader li {
+    padding: 10rem;
+}
 main {
     background-color: #f8ecd5;
 }
@@ -83,13 +92,13 @@ ul {
 }
 
 a {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 16rem;
+    line-height: 18rem;
     text-decoration: none;
 }
 
 .wrapper {
-    padding: 0px 50px;
+    padding: 0rem 50rem;
 }
 
 .banner img{
@@ -97,12 +106,12 @@ a {
 }
 
 .tovar_list {
-    padding: 10px 0px;
+    padding: 10rem 0rem;
     background-color: #e0ce93;
 }
 
 .tovar_list a {
-    font-size: 20px;
+    font-size: 20rem;
     color: #2b1802;
 }
 
@@ -110,35 +119,38 @@ a {
     color: #4d771c;
 }
 
+.tovar_info h3 {
+    font-size: 20rem;
+}
 .tovar_main {
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .tovar {
-    width: 250px;
-    padding: 20px 10px;
+    width: 250rem;
+    padding: 20rem 10rem;
 }
 
 .tovar img {
-    max-width: 250px;
-    padding-bottom: 6px;
+    max-width: 250rem;
+    padding-bottom: 6rem;
 }
 
 .tovar_info {
     display: flex;
     align-items: center;
-    padding-top: 10px;
-    gap: 57px;
+    padding-top: 10rem;
+    gap: 57rem;
 }
 
 .tovarlogo {
-    font-size: 20px;
+    font-size: 20rem;
     color: black;
 }
 
 .tovar_info p {
-    font-size: 17px;
+    font-size: 17rem;
     color: #6C8B08;
 }
 
@@ -152,13 +164,13 @@ a {
     opacity: 0;
 }
 
-.black {
-display: none;
-  position: fixed;
-  inset: 0;
-  opacity: 0.6;
-  background: #000;
-  z-index: 1;
+.black  , .dark{
+    display: none;
+    position: fixed;
+    inset: 0;
+    opacity: 0.6;
+    background: #000;
+    z-index: 1;
 }
 
 .bc {
@@ -167,49 +179,48 @@ display: none;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 950px;
-    height: 500px;
-    padding:  45px 30px;
+    width: 950rem;
+    height: 500rem;
+    padding:  45rem 30rem;
     box-sizing: border-box;
-    border-radius: 9px;
+    border-radius: 9rem;
     background-color: #fff;
     opacity: 1;
     z-index: 2;
 }
 
 .bc img {
-    width: 420px;
-    height: 420px;
+    width: 420rem;
 }
 
 .kartca_info {
-    padding: 20px 25px;
+    padding: 20rem 25rem;
 }
 
 .nazva {
-    font-size: 31px;
+    font-size: 31rem;
     font-weight: 400;
-    padding-bottom: 35px;
+    padding-bottom: 35rem;
 }
 
 .price {
-    font-size: 25px;
+    font-size: 25rem;
     font-weight: 500;
-    padding-bottom: 45px;
+    padding-bottom: 45rem;
 }
 
 .info {
-    padding-top: 20px;
+    padding-top: 20rem;
 }
 
 .info li {
-    padding-top: 10px;
+    padding-top: 10rem;
 }
 
 .canel svg {
     position: absolute;
-    width: 35px;
-    height: 35px;
+    width: 35rem;
+    height: 35rem;
     top: 4%;
     right: 3%;
 }
@@ -218,20 +229,20 @@ display: none;
     position: absolute;
     bottom: 7%;
     right:3%;
-    padding: 12px 36px;
+    padding: 12rem 36rem;
     color: #fff;
     background-color: #3d3b50;
 }
 
 footer {
-    padding: 5px 0;
+    padding: 5rem 0;
     background-color: #D5A007;
 }
 
 .sos {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 10rem;
 }
 
 .sos svg {
@@ -247,16 +258,551 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
-    height: 300px;
+    padding: 20rem;
+    height: 300rem;
 }
 
 .none img {
-    width: 250px;
+    width: 250rem;
 }
 
 .none p {
-    font-size: 20px;
+    font-size: 20rem;
     color: #221505;
 }
 
+ @media screen  and (min-width: 280px){
+html {
+    font-size: .3px;
+}
+
+   body {
+        padding: 0rem 0%;
+    }
+
+          
+}
+
+ @media screen  and (min-width: 422px){
+html {
+    font-size: .6px;
+}
+
+    body {
+        padding: 0rem 0%;
+    }
+
+    .cancelheader {
+        position: fixed;
+        top: 3%;
+        right: 3%;
+        
+    }
+    .listheader {
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        background-color: #B0BC42;
+        z-index: 2;
+    }
+          
+
+    .listheader ul{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 10%;
+        right: 4%;
+        padding: 10rem 5rem;
+        z-index: 3;
+    }
+
+    .listheader li {
+        padding-top: 30rem;
+    }
+
+    .listheader a {
+        font-size: 30rem;
+    }
+
+    .soc {
+        display: flex;
+        flex-direction: column;
+        padding-top:20rem ;
+    }
+
+    .soss {
+        padding-bottom: 130%;
+    }
+
+     .tovar_info {
+                font-size: 30rem;
+                display: flex;
+                align-items: center;
+                padding-top: 10rem;
+                gap: 57rem;
+            }
+
+    .tovar {
+        /* width: 250rem; */
+        width: 70%;
+        padding: 30rem 10rem;
+    }
+
+    .tovar img {
+        /* max-width: 250rem; */
+        max-width: 100%;
+        padding-bottom: 6rem;
+    }
+
+    .tovarlogo {
+        font-size: 30rem;
+        color: black;
+    }
+    .tovar_info {
+        font-size: 27rem;
+        display: flex;
+        align-items: center;
+        padding-top: 10rem;
+        gap: 57rem;
+    }
+
+    .tovar_info p {
+        font-size: 25rem;
+        color: #6C8B08;
+    }
+
+    .flexus {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 25rem;
+}
+
+.tovar_list {
+    padding: 20rem 0rem;
+    background-color: #e0ce93;
+}
+.tovar_list a {
+    font-size: 30rem;
+    color: #2b1802;
+}
+
+.bc {
+    top: 50%;
+    display: flex;
+    width: 100%;
+    height: 60%;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+
+.canel svg {
+    position: absolute;
+    width: 35rem;
+    height: 35rem;
+    top: -5%;
+    right: 3%;
+    fill: #e0ce93;
+}
+
+
+.bc img {
+    width: 100%;
+    height: 70%;
+}
+.nazva {
+        font-size: 45rem;
+        font-weight: 400;
+        padding-bottom: 25rem;
+    }
+
+    .price {
+        font-size: 45rem;
+        font-weight: 500;
+        padding-bottom: 25rem;
+    }
+
+     .kartca_info a {
+        width: 88%;
+        bottom: 30rem;
+        padding: 25rem;
+        text-align: center;
+        font-size: 30rem;
+    }
+
+.info {
+    font-size: 30rem;
+    padding-top: 10rem;
+}
+}
+        
+@media screen  and (min-width: 768px){
+    html {
+        font-size: .9px;
+    }
+
+    .tovar_list {
+    padding: 10rem 0rem;
+    background-color: #e0ce93;
+}
+
+.tovar_list a {
+    font-size: 20rem;
+    color: #2b1802;
+}
+
+.tovar_list a:hover {
+    color: #4d771c;
+}
+
+.tovar_main {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tovar {
+    width: 250rem;
+    padding: 20rem 10rem;
+}
+
+.tovar img {
+    max-width: 250rem;
+    padding-bottom: 6rem;
+}
+
+.tovar_info {
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 57rem;
+}
+
+.tovarlogo {
+    font-size: 20rem;
+    color: black;
+}
+
+.tovar_info p {
+    font-size: 17rem;
+    color: #6C8B08;
+}
+
+.tovar_info .nope {
+    color: rgb(177, 32, 32);
+}
+
+}
+
+@media screen  and (min-width: 640px){
+    html {
+        font-size: 1px;
+    }
+      .tovar_list {
+        padding: 10rem 0rem;
+        background-color: #e0ce93;
+}
+
+.tovar_list a {
+    font-size: 20rem;
+    color: #2b1802;
+}
+
+.tovar_list a:hover {
+    color: #4d771c;
+}
+
+.tovar_main {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tovar {
+    width: 250rem;
+    padding: 20rem 10rem;
+}
+
+.tovar img {
+    max-width: 250rem;
+    padding-bottom: 6rem;
+}
+
+.tovar_info {
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 57rem;
+}
+
+.tovarlogo {
+    font-size: 20rem;
+    color: black;
+}
+
+.tovar_info p {
+    font-size: 12rem;
+    color: #6C8B08;
+}
+
+.tovar_info .nope {
+    color: rgb(177, 32, 32);
+}
+
+}
+
+@media screen  and (min-width: 1024px){
+    html {
+        font-size: 1px;
+    }
+
+        .listheader {
+            position: relative;
+            right: 0;
+            top: 0;
+            z-index: 2;
+    }
+          
+
+    .listheader ul{
+        position:relative;
+        display: flex;
+        flex-direction: row;
+        padding: 10rem 5rem;
+        z-index: 1;
+    }
+
+    .listheader li {
+        padding-top: 30rem;
+    }
+
+    .listheader a {
+        font-size: 40rem;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .listheader {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 15rem;
+        z-index: 1;
+}
+
+.listheader a {
+    padding: 10rem;
+    font-size: 16rem;
+    color: #221505;
+}
+
+.listheader li {
+    padding: 10rem;
+}
+    .tovar_list {
+        padding: 10rem 0rem;
+        background-color: #e0ce93;
+}
+
+.soc, .cancelheader {
+    display: none;
+}
+.tovar_list a {
+    font-size: 20rem;
+    color: #2b1802;
+}
+
+.tovar_list a:hover {
+    color: #4d771c;
+}
+
+.tovar_main {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tovar {
+    width: 250rem;
+    padding: 20rem 10rem;
+}
+
+.tovar img {
+    max-width: 250rem;
+    padding-bottom: 6rem;
+}
+
+.tovar_info {
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 57rem;
+}
+
+.tovarlogo {
+    font-size: 20rem;
+    color: black;
+}
+
+.tovar_info p {
+    font-size: 17rem;
+    color: #6C8B08;
+}
+
+.tovar_info .nope {
+    color: rgb(177, 32, 32);
+}
+
+    .bc {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 950rem;
+    height: 500rem;
+    padding:  45rem 30rem;
+    box-sizing: border-box;
+    border-radius: 9rem;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 2;
+}
+
+.bc img {
+    width: 420rem;
+}
+
+.kartca_info {
+    padding: 20rem 25rem;
+}
+
+.nazva {
+    font-size: 31rem;
+    font-weight: 400;
+    padding-bottom: 35rem;
+}
+
+.price {
+    font-size: 25rem;
+    font-weight: 500;
+    padding-bottom: 45rem;
+}
+
+.info {
+    padding-top: 20rem;
+}
+
+.info li {
+    padding-top: 10rem;
+}
+
+.canel svg {
+    position: absolute;
+    width: 35rem;
+    height: 35rem;
+    top: 4%;
+    right: 3%;
+}
+
+.kartca_info a {
+    position: absolute;
+    bottom: 7%;
+    right:3%;
+    padding: 12rem 36rem;
+    color: #fff;
+    background-color: #3d3b50;
+}
+
+.bc {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 950rem;
+    flex-direction: row;
+    height: 500rem;
+    padding:  45rem 30rem;
+    box-sizing: border-box;
+    border-radius: 9rem;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 2;
+}
+
+.bc img {
+    width: 420rem;
+    height: 420rem;
+}
+
+.kartca_info {
+    padding: 20rem 25rem;
+}
+
+.nazva {
+    font-size: 31rem;
+    font-weight: 400;
+    padding-bottom: 35rem;
+}
+
+    .price {
+        font-size: 29rem;
+        font-weight: 500;
+        padding-bottom: 45rem;
+    }
+
+.info {
+    font-size: 25rem;
+    padding-top: 20rem;
+}
+
+.info li {
+    padding-top: 10rem;
+}
+
+.canel svg {
+    fill: #2b1802;
+    position: absolute;
+    width: 35rem;
+    height: 35rem;
+    top: 4%;
+    right: 3%;
+}
+
+    .kartca_info a {
+        position: absolute;
+        bottom: 7%;
+        right: 3%;
+        padding: 12rem 36rem;
+        color: #fff;
+        background-color: #3d3b50;
+        text-align: center;
+        font-size: 20rem;
+        width: 20%;
+    }
+}
+
+@media screen  and (min-width: 1200px){
+    html {
+        font-size: 1.1px;
+    }
+
+    
+}
+
+@media screen  and (min-width: 1920px){
+    html {
+        font-size: 1.5px;
+    }
+}
+
+@media screen  and (min-width: 2200px){
+    html {
+        font-size: 1.7px;
+    }
+}
