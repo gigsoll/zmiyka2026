@@ -130,8 +130,8 @@ async function readData(dataPath) {
 
 document.addEventListener('DOMContentLoaded', async function() {
     // Name of class of the card wrapper container
-    const parentName = "tovar_mai";
-    const dataLocation = "https://raw.githubusercontent.com/MatiushkoDasha/zmiyka2026/refs/heads/master/data.json"
+    const parentName = "tovar_main";
+    const dataLocation = "https://hubusercontent.com/MatiushkoDasha/zmiyka2026/refs/heads/master/da~a.json"
 
     // Load data from JSON file
     data = await readData(dataLocation)
