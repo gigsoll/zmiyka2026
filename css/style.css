@@ -391,6 +391,13 @@ html {
     color: #2b1802;
 }
 
+.preddata {
+    padding: 30rem;
+    font-size: 30rem;
+    font-weight: 500;
+    text-align: center;
+}
+
 .bc {
    top: 50%;
     display: flex;
@@ -593,7 +600,7 @@ html {
     }
 
 .info {
-    font-size: 30rem;
+    font-size: 40rem;
     padding-top: 10rem;
 }
 }
@@ -784,6 +791,7 @@ body {
         flex-direction: row;
         padding: 10rem 5rem;
         z-index: 1;
+        gap: 1px;
     }
 
     .listheader li {
@@ -802,7 +810,7 @@ body {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        gap: 15rem;
+        gap: 1rem;
         z-index: 1;
 }
 

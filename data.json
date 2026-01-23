@@ -1,4 +1,49 @@
 [
+     {
+        "id": "neru",
+        "imageSrc": "img/nerukeychain.png",
+        "imageHoverSrc": "img/neruhover.png",
+        "productName": "Брелок \"Неру\"",
+        "productPrice": 200,
+        "productDescription": "Розмір: 5см, 7см",
+        "avalible": true
+    },
+     {
+        "id": "koko",
+        "imageSrc": "img/kokokeyhain.png",
+        "imageHoverSrc": "img/kokohover.png",
+        "productName": "Брелок \"Коко\"",
+        "productPrice": 170,
+        "productDescription": "Розмір: 5см, 7см",
+        "avalible": true
+    },
+      {
+        "id": "riche",
+        "imageSrc": "img/richekeychain.png",
+        "imageHoverSrc": "img/richehover.png",
+        "productName": "Брелок \"Річе\"",
+        "productPrice": 170,
+        "productDescription": "Розмір: 5см, 7см",
+        "avalible": true
+    },
+      {
+        "id": "tetia",
+        "imageSrc": "img/tetiakeychain.png",
+        "imageHoverSrc": "img/tetiahover.png",
+        "productName": "Брелок \"Тетіа\"",
+        "productPrice": 170,
+        "productDescription": "Розмір: 5см, 7см",
+        "avalible": true
+    },
+     {
+        "id": "q",
+        "imageSrc": "img/qkeychain.png",
+        "imageHoverSrc": "img/qhover.png",
+        "productName": "Брелок \"Кіфлі\"",
+        "productPrice": 170,
+        "productDescription": "Розмір: 5см, 7см",
+        "avalible": true
+    },
     {
         "id": "luka",
         "imageSrc": "img/lukakeychain.png",
@@ -21,7 +66,7 @@
         "id": "gumi",
         "imageSrc": "img/gumikeychain.png",
         "imageHoverSrc": "img/gumihover.png",
-        "productName": "Брелок \"Гумі\"",
+        "productName": "Брелок \"Ґумі\"",
         "productPrice": 200,
         "productDescription": "Розмір: 7см, 7см",
         "avalible": true
@@ -30,70 +75,16 @@
         "id": "len",
         "imageSrc": "img/lenkeychain.png",
         "imageHoverSrc": "img/lenhover.png",
-        "productName": "Брелок \"Кагаміне Лен\"",
+        "productName": "Брелок \"Ґумі\"",
         "productPrice": 200,
         "productDescription": "Розмір: 7см, 7см",
         "avalible": true
-    },
-    {
-        "id": "meiko",
-        "imageSrc": "img/meikokeychain.png",
-        "imageHoverSrc": "img/meikohover.png",
-        "productName": "Брелок \"Меїко\"",
-        "productPrice": 200,
-        "productDescription": "Розмір: 5см, 7см",
-        "avalible": false
-    },
-    {
-        "id": "kaito",
-        "imageSrc": "img/kaitokeychain.png",
-        "imageHoverSrc": "img/kaitohover.png",
-        "productName": "Брелок \"Каїто\"",
-        "productPrice": 200,
-        "productDescription": "Розмір: 5см, 7см",
-        "avalible": true
-    },
-     {
-        "id": "monika",
-        "imageSrc": "img/monikakeychain.png",
-        "imageHoverSrc": "img/monikahover.png",
-        "productName": "Брелок \"Моніка\"",
-        "productPrice": 75,
-        "productDescription": "лише моніка",
-        "avalible": false
-    },
-     {
-        "id": "sayori",
-        "imageSrc": "img/sayorikeychain.png",
-        "imageHoverSrc": "img/sayorihover.png",
-        "productName": "Брелок \"сайорі\"",
-        "productPrice": 75,
-        "productDescription": "я повільно відчиняю двері",
-        "avalible": false
-    },
-     {
-        "id": "natsuki",
-        "imageSrc": "img/natsukikeychain.png",
-        "imageHoverSrc": "img/natsukihover.png",
-        "productName": "Брелок \"сайорі\"",
-        "productPrice": 75,
-        "productDescription": "Юрі поводить себе дивно останнім часом",
-        "avalible": false
-    },
-     {
-        "id": "yuri",
-        "imageSrc": "img/yurikeychain.png",
-        "imageHoverSrc": "img/yurihover.png",
-        "productName": "Брелок \"юрі\"",
-        "productPrice": 75,
-        "productDescription": "дайно подивитись на тебе",
-        "avalible": false
     },
      {
         "id": "tetostiker",
         "imageSrc": "img/tetostiker.png",
         "imageHoverSrc": "img/tetostiker.png",
-        "productName": "Стікерпак \"тето\"",
+        "productName": "Стікерпак \"Тето\"",
         "productPrice": 50,
         "productDescription": "стікерпак",
         "avalible": true
@@ -111,9 +102,82 @@
         "id": "tetokulumok",
         "imageSrc": "img/tetokulumok.png",
         "imageHoverSrc": "img/tetokulumokhover.png",
-        "productName": "Килимок \"тето\"",
+        "productName": "Килимок \"Тето\"",
         "productPrice": 420,
         "productDescription": "тето килимок для миші",
         "avalible": true
+    },
+    {
+        "id": "kaito",
+        "imageSrc": "img/kaitokeychain.png",
+        "imageHoverSrc": "img/kaitohover.png",
+        "productName": "Брелок \"Кайто\"",
+        "productPrice": 200,
+        "productDescription": "Розмір: 5см, 7см",
+        "avalible": true
+    },
+    {
+        "id": "meiko",
+        "imageSrc": "img/meikokeychain.png",
+        "imageHoverSrc": "img/meikohover.png",
+        "productName": "Брелок \"Меїко\"",
+        "productPrice": 200,
+        "productDescription": "Розмір: 5см, 7см",
+        "avalible": false
+    },
+     {
+        "id": "monika",
+        "imageSrc": "img/monikakeychain.png",
+        "imageHoverSrc": "img/monikahover.png",
+        "productName": "Брелок \"Моніка\"",
+        "productPrice": 75,
+        "productDescription": "лише моніка",
+        "avalible": false
+    },
+     {
+        "id": "sayori",
+        "imageSrc": "img/sayorikeychain.png",
+        "imageHoverSrc": "img/sayorihover.png",
+        "productName": "Брелок \"Сайорі\"",
+        "productPrice": 75,
+        "productDescription": "я повільно відчиняю двері",
+        "avalible": false
+    },
+     {
+        "id": "natsuki",
+        "imageSrc": "img/natsukikeychain.png",
+        "imageHoverSrc": "img/natsukihover.png",
+        "productName": "Брелок \"Нацукі\"",
+        "productPrice": 75,
+        "productDescription": "Юрі поводить себе дивно останнім часом",
+        "avalible": false
+    },
+     {
+        "id": "yuri",
+        "imageSrc": "img/yurikeychain.png",
+        "imageHoverSrc": "img/yurihover.png",
+        "productName": "Брелок \"Юрі\"",
+        "productPrice": 75,
+        "productDescription": "дайно подивитись на тебе",
+        "avalible": false
+    },
+     {
+        "id": "mikukulumok",
+        "imageSrc": "img/mikukulumok.jpg",
+        "imageHoverSrc": "img/mikukulumok.jpg",
+        "productName": "Килимок \"Міку\"",
+        "productPrice": 410,
+        "productDescription": "Килимок для миші 22х24см",
+        "avalible": false
+    },
+     {
+        "id": "kulumok",
+        "imageSrc": "img/kulumok.png",
+        "imageHoverSrc": "img/kulumok.png",
+        "productName": "Килимок \"Крем-сода\"",
+        "productPrice": 410,
+        "productDescription": "Килимок для миші 22х24см",
+        "avalible": false
     }
+    
 ]
