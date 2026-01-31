@@ -1,4 +1,5 @@
 
+
 function createCardElement(parentName, data) {
     // I assume you will have only one element with this class name
     // better aproach is to use id
@@ -12,7 +13,7 @@ function createCardElement(parentName, data) {
 
     // Fill the card with data
     card.innerHTML = `
-    <img src=${data.imageSrc} alt=""  loading="lazy" >
+    <img src=${data.imageSrc} alt=""   >
     <p class="tovarlogo">${data.productName}</p>
     <div class="tovar_info flex_between">
     <h3>${data.productPrice}грн</h3>

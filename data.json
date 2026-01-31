@@ -5,7 +5,7 @@
         "imageHoverSrc": "img/neruhover.png",
         "productName": "Брелок \"Неру\"",
         "productPrice": 200,
-        "productDescription": "Розмір: 5см, 7см",
+        "productDescription": "Розмір: 5см, 7см dscvsbhvbahkcbashkvcbavsvbazvk jv db d bdbdb",
         "avalible": true
     },
      {
@@ -178,6 +178,14 @@
         "productPrice": 410,
         "productDescription": "Килимок для миші 22х24см",
         "avalible": false
+    },
+     {
+        "id": "alienpin",
+        "imageSrc": "img/alienpins.jpg",
+        "imageHoverSrc": "img/alienpins.jpg",
+        "productName": "Значки \"Alien stage\"",
+        "productPrice": 70,
+        "productDescription": "Уточнення 1шт-70грн   Розмір: 58мм    Основа: залізна    Покриття: звичайне",
+        "avalible": false
     }
-    
 ]
