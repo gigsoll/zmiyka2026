@@ -2,6 +2,7 @@
      {
         "id": "neru",
         "imageSrc": "img/nerukeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/neruhover.png",
         "productName": "Брелок \"Неру\"",
         "productPrice": 200,
@@ -11,6 +12,7 @@
      {
         "id": "koko",
         "imageSrc": "img/kokokeyhain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/kokohover.png",
         "productName": "Брелок \"Коко\"",
         "productPrice": 170,
@@ -20,6 +22,7 @@
       {
         "id": "riche",
         "imageSrc": "img/richekeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/richehover.png",
         "productName": "Брелок \"Річе\"",
         "productPrice": 170,
@@ -29,6 +32,7 @@
       {
         "id": "tetia",
         "imageSrc": "img/tetiakeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/tetiahover.png",
         "productName": "Брелок \"Тетіа\"",
         "productPrice": 170,
@@ -38,6 +42,7 @@
      {
         "id": "q",
         "imageSrc": "img/qkeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/qhover.png",
         "productName": "Брелок \"Кіфлі\"",
         "productPrice": 170,
@@ -47,6 +52,7 @@
     {
         "id": "luka",
         "imageSrc": "img/lukakeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/lukahover.png",
         "productName": "Брелок \"Вокалоїд Лука\"",
         "productPrice": 200,
@@ -56,6 +62,7 @@
     {
         "id": "miku",
         "imageSrc": "img/mikykeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/mikuhover.png",
         "productName": "Брелок \"Хацуне Міку\"",
         "productPrice": 200,
@@ -65,6 +72,7 @@
     {
         "id": "gumi",
         "imageSrc": "img/gumikeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/gumihover.png",
         "productName": "Брелок \"Ґумі\"",
         "productPrice": 200,
@@ -74,6 +82,7 @@
     {
         "id": "len",
         "imageSrc": "img/lenkeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/lenhover.png",
         "productName": "Брелок \"Каґаме Лен\"",
         "productPrice": 200,
@@ -83,6 +92,7 @@
      {
         "id": "tetostiker",
         "imageSrc": "img/tetostiker.png",
+        "category": "sticker",
         "imageHoverSrc": "img/tetostiker.png",
         "productName": "Стікерпак \"Тето\"",
         "productPrice": 50,
@@ -92,6 +102,7 @@
      {
         "id": "random",
         "imageSrc": "img/random.png",
+        "category": "keychain",
         "imageHoverSrc": "img/randomhover.png",
         "productName": "Рандомка \"брелок\"",
         "productPrice": 190,
@@ -101,6 +112,7 @@
      {
         "id": "tetokulumok",
         "imageSrc": "img/tetokulumok.png",
+        "category": "mousepad",
         "imageHoverSrc": "img/tetokulumokhover.png",
         "productName": "Килимок \"Тето\"",
         "productPrice": 420,
@@ -110,6 +122,7 @@
     {
         "id": "kaito",
         "imageSrc": "img/kaitokeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/kaitohover.png",
         "productName": "Брелок \"Кайто\"",
         "productPrice": 200,
@@ -119,6 +132,7 @@
     {
         "id": "meiko",
         "imageSrc": "img/meikokeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/meikohover.png",
         "productName": "Брелок \"Меїко\"",
         "productPrice": 200,
@@ -128,6 +142,7 @@
      {
         "id": "monika",
         "imageSrc": "img/monikakeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/monikahover.png",
         "productName": "Брелок \"Моніка\"",
         "productPrice": 75,
@@ -137,6 +152,7 @@
      {
         "id": "sayori",
         "imageSrc": "img/sayorikeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/sayorihover.png",
         "productName": "Брелок \"Сайорі\"",
         "productPrice": 75,
@@ -146,6 +162,7 @@
      {
         "id": "natsuki",
         "imageSrc": "img/natsukikeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/natsukihover.png",
         "productName": "Брелок \"Нацукі\"",
         "productPrice": 75,
@@ -155,6 +172,7 @@
      {
         "id": "yuri",
         "imageSrc": "img/yurikeychain.png",
+        "category": "keychain",
         "imageHoverSrc": "img/yurihover.png",
         "productName": "Брелок \"Юрі\"",
         "productPrice": 75,
@@ -164,6 +182,7 @@
      {
         "id": "mikukulumok",
         "imageSrc": "img/mikukulumok.jpg",
+        "category": "mousepad",
         "imageHoverSrc": "img/mikukulumok.jpg",
         "productName": "Килимок \"Міку\"",
         "productPrice": 410,
@@ -174,6 +193,7 @@
         "id": "kulumok",
         "imageSrc": "img/kulumok.png",
         "imageHoverSrc": "img/kulumok.png",
+        "category": "mousepad",
         "productName": "Килимок \"Крем-сода\"",
         "productPrice": 410,
         "productDescription": "Килимок для миші 22х24см",
@@ -183,6 +203,7 @@
         "id": "alienpin",
         "imageSrc": "img/alienpins.jpg",
         "imageHoverSrc": "img/alienpins.jpg",
+        "category": "keychain",
         "productName": "Значки \"Alien stage\"",
         "productPrice": 70,
         "productDescription": "Уточнення 1шт-70грн   Розмір: 58мм    Основа: залізна    Покриття: звичайне",
