@@ -5,7 +5,7 @@
         "imageHoverSrc": "img/neruhover.png",
         "productName": "Брелок \"Неру\"",
         "productPrice": 200,
-        "productDescription": "Розмір: 5см, 7см dscvsbhvbahkcbashkvcbavsvbazvk jv db d bdbdb",
+        "productDescription": "Розмір: 5см, 7см ",
         "avalible": true
     },
      {
@@ -86,7 +86,7 @@
         "imageHoverSrc": "img/tetostiker.png",
         "productName": "Стікерпак \"Тето\"",
         "productPrice": 50,
-        "productDescription": "стікерпак",
+        "productDescription": "стікерпак з уталоїдом Тето",
         "avalible": true
     },
      {
@@ -95,7 +95,7 @@
         "imageHoverSrc": "img/randomhover.png",
         "productName": "Рандомка \"брелок\"",
         "productPrice": 190,
-        "productDescription": "КАЗІНО ПРОВІР СВОЮ ВДАЧУ 777",
+        "productDescription": "Рандомка з брелочками ",
         "avalible": true
     },
      {
@@ -104,7 +104,7 @@
         "imageHoverSrc": "img/tetokulumokhover.png",
         "productName": "Килимок \"Тето\"",
         "productPrice": 420,
-        "productDescription": "тето килимок для миші",
+        "productDescription": "Тето килимок для миші",
         "avalible": true
     },
     {
@@ -131,7 +131,7 @@
         "imageHoverSrc": "img/monikahover.png",
         "productName": "Брелок \"Моніка\"",
         "productPrice": 75,
-        "productDescription": "лише моніка",
+        "productDescription": "Розмір: 3.5см 5см",
         "avalible": false
     },
      {
@@ -140,7 +140,7 @@
         "imageHoverSrc": "img/sayorihover.png",
         "productName": "Брелок \"Сайорі\"",
         "productPrice": 75,
-        "productDescription": "я повільно відчиняю двері",
+        "productDescription": "Розмір: 3.5см 5см",
         "avalible": false
     },
      {
@@ -149,7 +149,7 @@
         "imageHoverSrc": "img/natsukihover.png",
         "productName": "Брелок \"Нацукі\"",
         "productPrice": 75,
-        "productDescription": "Юрі поводить себе дивно останнім часом",
+        "productDescription": "Розмір: 3.5см 5см",
         "avalible": false
     },
      {
@@ -158,7 +158,7 @@
         "imageHoverSrc": "img/yurihover.png",
         "productName": "Брелок \"Юрі\"",
         "productPrice": 75,
-        "productDescription": "дайно подивитись на тебе",
+        "productDescription": "Розмір: 3.5см 5см",
         "avalible": false
     },
      {

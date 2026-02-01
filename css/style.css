@@ -37,14 +37,16 @@ html{
 
 body {
     position: relative;
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/sunny.jpg);
     padding: 0rem 12%;
     font-family: 'Montserrat';
 }
 
-header {
-    padding: 5rem 0;
-    background-color: #B0BC42;
+.header {
+    position: fixed;
+    width: 76%;
+    padding: 00;
+    background-color: #76911e;
     box-sizing: border-box;
 }
 
@@ -75,16 +77,20 @@ header {
 }
 
 .listheader a {
-    padding: 10rem;
     font-size: 16rem;
-    color: #221505;
+    color: #f7e5ce;
+}
+
+.listheader a:hover {
+    text-decoration: underline;
 }
 
 .listheader li {
     padding: 10rem;
 }
 main {
-    background-color: #f8ecd5;
+    padding-top: 58rem;
+    background-color: #ffe7ac;
 }
 
 ul {
@@ -116,7 +122,7 @@ a {
 }
 
 .tovar_list a:hover {
-    color: #4d771c;
+    color: #267507;
 }
 
 .tovar_info h3 {
@@ -234,6 +240,10 @@ a {
     background-color: #669d0b;
 }
 
+.kartca_info a:hover {
+    background-color: #0c7c25;
+}
+
 footer {
     padding: 5rem 0;
     background-color: #D5A007;
@@ -280,6 +290,14 @@ html {
         padding: 0rem 0%;
     }
 
+    .header {
+        width: 100%;
+    }
+
+    main {
+        padding-top: 197rem;
+        background-color: #ffe7ac;
+    }
     .cancelheader {
         position: fixed;
         top: 3%;
@@ -298,7 +316,7 @@ html {
         top: 0;
         height: 100%;
         width: 50%;
-        background-color: #B0BC42;
+        background-color: #76911e;
         z-index: 2;
     }
           
@@ -308,10 +326,10 @@ html {
         display: flex;
         flex-direction: column;
         top: 10%;
-        right: 0%;
+        left: 54%;
         padding: 10rem 5rem;
         z-index: 3;
-                gap: 30rem;
+        gap: 30rem;
     }
 
     .listheader li {
@@ -384,8 +402,9 @@ html {
 
 .tovar_list {
     padding: 50rem 0rem;
-    background-color: #e0ce93;
+    background-color: #e3cb77;
 }
+
 .tovar_list a {
     font-size: 60rem;
     color: #2b1802;
@@ -416,48 +435,49 @@ html {
         /* flex-wrap: wrap; */
         flex-direction: column;
     }
-}
+    .nazva {
+            font-size: 65rem;
+            font-weight: 400;
+            padding-bottom: 25rem;
+        }
 
 
-.nazva {
-        font-size: 65rem;
-        font-weight: 400;
-        padding-bottom: 25rem;
+    .bc img {
+        width: 100%;
+    }
+    .nazva {
+            font-size: 65rem;
+            font-weight: 400;
+            padding-bottom: 25rem;
+        }
+
+    .price {
+            font-size: 65rem;
+            font-weight: 500;
+            padding-bottom: 25rem;
+        }
+
+    .kartca_info a {
+        /* width: 88%; */
+        left: 30rem;
+        right: 30rem;
+        bottom: 30rem;
+        padding: 55rem;
+        text-align: center;
+        font-size: 45rem;
+        border-radius: 15rem;
     }
 
-
-.bc img {
-    width: 100%;
-}
-.nazva {
-        font-size: 65rem;
-        font-weight: 400;
-        padding-bottom: 25rem;
+    .info {
+        font-size: 50rem;
+        padding-top: 10rem;
     }
-
-.price {
-        font-size: 65rem;
-        font-weight: 500;
-        padding-bottom: 25rem;
-    }
-
-.kartca_info a {
-    /* width: 88%; */
-    left: 30rem;
-    right: 30rem;
-    bottom: 30rem;
-    padding: 55rem;
-    text-align: center;
-    font-size: 45rem;
-    border-radius: 15rem;
-}
-
-.info {
-    font-size: 50rem;
-    padding-top: 10rem;
-}
-          
-
+            
+    footer a {
+            font-size: 16rem;
+            color: #2b1802;
+        }
+ }
 
  @media screen  and (min-width: 422px){
 html {
@@ -475,6 +495,10 @@ html {
         padding: 0rem 0%;
     }
 
+    main {
+        padding-top: 100rem;
+        background-color: #ffe7ac;
+    }
     .cancelheader {
         position: fixed;
         top: 3%;
@@ -488,7 +512,7 @@ html {
         top: 0;
         height: 100%;
         width: 50%;
-        background-color: #B0BC42;
+        background-color: #76911e;
         z-index: 2;
     }
           
@@ -498,7 +522,7 @@ html {
         display: flex;
         flex-direction: column;
         top: 10%;
-        right: 4%;
+        left: 54%;
         padding: 10rem 5rem;
         z-index: 3;
     }
@@ -555,7 +579,7 @@ html {
     }
 
     .tovar_info p {
-        font-size: 35rem;
+        font-size: 30rem;
         color: #6C8B08;
     }
 
@@ -569,8 +593,9 @@ html {
 
 .tovar_list {
     padding: 20rem 0rem;
-    background-color: #e0ce93;
+    background-color: #e3cb77;
 }
+
 .tovar_list a {
     font-size: 30rem;
     color: #2b1802;
@@ -630,9 +655,13 @@ html {
     }
       .tovar_list {
         padding: 10rem 0rem;
-        background-color: #e0ce93;
+        background-color: #e3cb77;
 }
 
+main {
+    padding-top: 60rem;
+    background-color: #ffe7ac;
+}
 .tovar_info h3 {
     font-size: 20rem;
 }
@@ -737,7 +766,7 @@ html {
 }
     .tovar_list {
     padding: 10rem 0rem;
-    background-color: #e0ce93;
+    background-color: #e3cb77;
 }
 
 .tovar_list a {
@@ -746,7 +775,7 @@ html {
 }
 
 .tovar_list a:hover {
-    color: #4d771c;
+    color: #267507;
 }
 
 .tovar_main {
@@ -817,21 +846,28 @@ html {
         font-size: 30rem;
     }
 }
-
-
-
-
 @media screen  and (min-width: 1024px){
     html {
         font-size: 1px;
     }
 
-body {
-    position: relative;
-    background-image: url(../img/background.jpg);
-    padding: 0rem 12%;
-    font-family: 'Montserrat';
-}
+    body {
+        position: relative;
+        background-image: url(../img/sunny.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 0rem 12%;
+        font-family: 'Montserrat';
+    }
+
+    .header {
+        width: 76%;
+    }
+    .sekret {
+        display: none;
+    }
         .listheader {
             position: relative;
             right: 0;
@@ -842,6 +878,8 @@ body {
 
     .listheader ul{
         position:relative;
+        left: 0;
+        top: 0;
         display: flex;
         flex-direction: row;
         padding: 10rem 5rem;
@@ -870,9 +908,8 @@ body {
 }
 
 .listheader a {
-    padding: 10rem;
     font-size: 16rem;
-    color: #221505;
+    color: #f7e5ce;
 }
 
 .listheader li {
@@ -880,9 +917,13 @@ body {
 }
     .tovar_list {
         padding: 10rem 0rem;
-        background-color: #e0ce93;
+        background-color: #e3cb77;
 }
 
+main {
+    padding-top: 58rem;
+    background-color: #ffe7ac;
+}
 .soc, .cancelheader {
     display: none;
 }
@@ -892,7 +933,7 @@ body {
 }
 
 .tovar_list a:hover {
-    color: #4d771c;
+    color: #267507;
 }
 
 .tovar_main {
