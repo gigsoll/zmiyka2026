@@ -1,10 +1,4 @@
-
-
-function createCardElement(parentName, data) {
-    // I assume you will have only one element with this class name
-    // better aproach is to use id
-    parent = document.getElementsByClassName(parentName)[0];
-
+function createCardElement(parent, data) {
     // Create product card item for future manipulations
     card = document.createElement("div")
     card.classList.add("tovar")
@@ -132,6 +126,7 @@ function filterData(data, category) {
         "mousepad",
         "sticker",
         "badge",
+        "pin"
     ]
 
     if (!validCategories.includes(category)) {
@@ -145,21 +140,49 @@ function filterData(data, category) {
 
 }
 
-document.addEventListener('DOMContentLoaded', async function() {
+async function displayCards(category) {
     // Name of class of the card wrapper container
     const parentName = "tovar_main";
-    const dataLocation = "../data.json"
+    const dataLocation = "https://raw.githubusercontent.com/MatiushkoDasha/zmiyka2026/refs/heads/master/data.json"
 
     // Load data from JSON file
     let data = await readData(dataLocation)
 
-    // Display each card using function
-    let filtered = filterData(data, "all")
-    console.log(filtered)
-    filtered.forEach(element => {
-        createCardElement(parentName, element)
-    });
+    // Get parent
+    let parent = document.getElementById(parentName);
 
+    // Clear parent content
+    parent.innerHTML = ""
+
+    // Get products by category
+    let filtered = filterData(data, category)
+
+    // If no items found diplay not found message
+    if (filtered.length === 0) {
+        parent.innerHTML = `<div class="none">
+            <img src="img/z.png" alt="">
+            <p>На жаль немає поки</p>
+        </div>`
+        return
+    }
+    filtered.forEach(element => {
+        createCardElement(parent, element)
+    });
+}
+
+document.addEventListener('DOMContentLoaded', async function() {
+    displayCards("all")
+    const idCategoryBinding = {
+        link_main: "all",
+        link_keychain: "keychain",
+        link_badge: "badge",
+        link_pin: "pin",
+        link_mousepad: "mousepad",
+        link_sticker: "sticker",
+    }
+    Object.keys(idCategoryBinding).forEach(id => {
+        document.getElementById(id).onclick = () => displayCards(idCategoryBinding[id])
+    })
 });
 
 const dark = document.querySelector(".dark"),
