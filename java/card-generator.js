@@ -9,7 +9,7 @@ function createCardElement(parentName, data) {
     card = document.createElement("div")
     card.classList.add("tovar")
     card.id = data.id
-  
+
 
     // Fill the card with data
     card.innerHTML = `
@@ -42,7 +42,7 @@ function createDetails(data) {
 
     // Get main component to add detailed card
     var main = document.querySelector("main")
-    
+
     // Create clickable elements
     var cancelBtn = document.createElement("div")
     var orderBtn = document.createElement("a")
@@ -51,7 +51,7 @@ function createDetails(data) {
     // Set clickable elements properties
     cancelBtn.classList.add("canel")
     cancelBtn.innerHTML = svg
-    
+
     orderBtn.href = tgk
     orderBtn.innerHTML = "Замовити"
 
@@ -111,7 +111,7 @@ function createDetails(data) {
 async function readData(dataPath) {
     const url = dataPath
     try {
-        const response =  await fetch(url)
+        const response = await fetch(url)
         if (!response.ok) {
             throw new Error("There is no such file")
         }
@@ -120,36 +120,61 @@ async function readData(dataPath) {
 
     } catch (error) {
         console.error(error.mesage)
-    } 
+    }
+}
+
+function filterData(data, category) {
+    // can be just a categor or "all" if you
+    // need to display all the cards
+    const validCategories = [
+        "all",
+        "keychain",
+        "mousepad",
+        "sticker",
+        "badge",
+    ]
+
+    if (!validCategories.includes(category)) {
+        throw new Error("Invalid category") // throw error if invalid category is passed
+    }
+    if (category === "all") {
+        return data
+    } else {
+        return data.filter((item) => { return item.category === category })
+    }
+
 }
 
 document.addEventListener('DOMContentLoaded', async function() {
     // Name of class of the card wrapper container
     const parentName = "tovar_main";
-    const dataLocation = "https://raw.githubusercontent.com/MatiushkoDasha/zmiyka2026/refs/heads/master/data.json"
+    const dataLocation = "../data.json"
 
     // Load data from JSON file
-    data = await readData(dataLocation)
+    let data = await readData(dataLocation)
 
     // Display each card using function
-    data.forEach(element => {
+    let filtered = filterData(data, "all")
+    console.log(filtered)
+    filtered.forEach(element => {
         createCardElement(parentName, element)
     });
+
 });
 
-  const dark = document.querySelector(".dark"),
-      burger = document.querySelector(".burger"),
-      listheader = document.querySelector(".listheader"),
-      cancelheader = document.querySelector(".cancelheader")
+const dark = document.querySelector(".dark"),
+    burger = document.querySelector(".burger"),
+    listheader = document.querySelector(".listheader"),
+    cancelheader = document.querySelector(".cancelheader")
 
-    burger.addEventListener("click", function() {
+burger.addEventListener("click", function() {
     listheader.style.display = "block";
     dark.style.display = "block"
-    })
+})
 
-    function cancelBurger() {
+function cancelBurger() {
     listheader.style.display = "none";
     dark.style.display = "none"
-    }
-    cancelheader.addEventListener("click", cancelBurger) 
-    dark.addEventListener("click", cancelBurger)
+}
+cancelheader.addEventListener("click", cancelBurger)
+dark.addEventListener("click", cancelBurger)
