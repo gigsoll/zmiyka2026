@@ -1,15 +1,9 @@
-
-
-function createCardElement(parentName, data) {
-    // I assume you will have only one element with this class name
-    // better aproach is to use id
-    parent = document.getElementsByClassName(parentName)[0];
-
+function createCardElement(parent, data) {
     // Create product card item for future manipulations
     card = document.createElement("div")
     card.classList.add("tovar")
     card.id = data.id
-  
+
 
     // Fill the card with data
     card.innerHTML = `
@@ -42,7 +36,7 @@ function createDetails(data) {
 
     // Get main component to add detailed card
     var main = document.querySelector("main")
-    
+
     // Create clickable elements
     var cancelBtn = document.createElement("div")
     var orderBtn = document.createElement("a")
@@ -51,7 +45,7 @@ function createDetails(data) {
     // Set clickable elements properties
     cancelBtn.classList.add("canel")
     cancelBtn.innerHTML = svg
-    
+
     orderBtn.href = tgk
     orderBtn.innerHTML = "Замовити"
 
@@ -111,7 +105,7 @@ function createDetails(data) {
 async function readData(dataPath) {
     const url = dataPath
     try {
-        const response =  await fetch(url)
+        const response = await fetch(url)
         if (!response.ok) {
             throw new Error("There is no such file")
         }
@@ -120,36 +114,90 @@ async function readData(dataPath) {
 
     } catch (error) {
         console.error(error.mesage)
-    } 
+    }
 }
 
-document.addEventListener('DOMContentLoaded', async function() {
+function filterData(data, category) {
+    // can be just a categor or "all" if you
+    // need to display all the cards
+    const validCategories = [
+        "all",
+        "keychain",
+        "mousepad",
+        "sticker",
+        "badge",
+        "pin"
+    ]
+
+    if (!validCategories.includes(category)) {
+        throw new Error("Invalid category") // throw error if invalid category is passed
+    }
+    if (category === "all") {
+        return data
+    } else {
+        return data.filter((item) => { return item.category === category })
+    }
+
+}
+
+async function displayCards(category) {
     // Name of class of the card wrapper container
     const parentName = "tovar_main";
     const dataLocation = "https://raw.githubusercontent.com/MatiushkoDasha/zmiyka2026/refs/heads/master/data.json"
 
     // Load data from JSON file
-    data = await readData(dataLocation)
+    let data = await readData(dataLocation)
 
-    // Display each card using function
-    data.forEach(element => {
-        createCardElement(parentName, element)
+    // Get parent
+    let parent = document.getElementById(parentName);
+
+    // Clear parent content
+    parent.innerHTML = ""
+
+    // Get products by category
+    let filtered = filterData(data, category)
+
+    // If no items found diplay not found message
+    if (filtered.length === 0) {
+        parent.innerHTML = `<div class="none">
+            <img src="img/z.png" alt="">
+            <p>На жаль немає поки</p>
+        </div>`
+        return
+    }
+    filtered.forEach(element => {
+        createCardElement(parent, element)
     });
+}
+
+document.addEventListener('DOMContentLoaded', async function() {
+    displayCards("all")
+    const idCategoryBinding = {
+        link_main: "all",
+        link_keychain: "keychain",
+        link_badge: "badge",
+        link_pin: "pin",
+        link_mousepad: "mousepad",
+        link_sticker: "sticker",
+    }
+    Object.keys(idCategoryBinding).forEach(id => {
+        document.getElementById(id).onclick = () => displayCards(idCategoryBinding[id])
+    })
 });
 
-  const dark = document.querySelector(".dark"),
-      burger = document.querySelector(".burger"),
-      listheader = document.querySelector(".listheader"),
-      cancelheader = document.querySelector(".cancelheader")
+const dark = document.querySelector(".dark"),
+    burger = document.querySelector(".burger"),
+    listheader = document.querySelector(".listheader"),
+    cancelheader = document.querySelector(".cancelheader")
 
-    burger.addEventListener("click", function() {
+burger.addEventListener("click", function() {
     listheader.style.display = "block";
     dark.style.display = "block"
-    })
+})
 
-    function cancelBurger() {
+function cancelBurger() {
     listheader.style.display = "none";
     dark.style.display = "none"
-    }
-    cancelheader.addEventListener("click", cancelBurger) 
-    dark.addEventListener("click", cancelBurger)
+}
+cancelheader.addEventListener("click", cancelBurger)
+dark.addEventListener("click", cancelBurger)
